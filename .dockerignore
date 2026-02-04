@@ -28,3 +28,9 @@
 !vendor/postgres-*/
 !workspace_hack/
 !build-tools/patches
+
+# Consider adding:
+# - Logs
+# - Temporary files
+# - Build outputs (e.g., `target/`)
+

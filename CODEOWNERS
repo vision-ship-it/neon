@@ -1,20 +1,20 @@
-# Autoscaling
+# Autoscaling: Ownership of virtual machine monitoring
 /libs/vm_monitor/ @neondatabase/autoscaling
 
-# DevProd & PerfCorr
+# DevProd & PerfCorr: Development productivity and performance correctness
 /.github/ @neondatabase/developer-productivity @neondatabase/performance-correctness
 
-# Compute
+# Compute: Compute resources management
 /pgxn/ @neondatabase/compute
 /vendor/ @neondatabase/compute
 /compute/ @neondatabase/compute
 /compute_tools/ @neondatabase/compute
 
-# Proxy
+# Proxy: Ownership of proxy services
 /libs/proxy/ @neondatabase/proxy
 /proxy/ @neondatabase/proxy
 
-# Storage
+# Storage: Management of storage resources
 /pageserver/ @neondatabase/storage
 /safekeeper/ @neondatabase/storage
 /storage_controller @neondatabase/storage
@@ -23,7 +23,7 @@
 /libs/remote_storage/ @neondatabase/storage
 /libs/safekeeper_api/ @neondatabase/storage
 
-# Shared
+# Shared: Shared components across compute and storage
 /pgxn/neon/ @neondatabase/compute @neondatabase/storage
 /libs/compute_api/ @neondatabase/compute @neondatabase/control-plane
 /libs/postgres_ffi/ @neondatabase/compute @neondatabase/storage

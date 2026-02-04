@@ -3,3 +3,4 @@
 # * `-D warnings`      - fail on any warnings (`cargo` returns non-zero exit status)
 # * `-D clippy::todo`  - don't let `todo!()` slip into `main`
 export CLIPPY_COMMON_ARGS="--locked --workspace --all-targets -- -A unknown_lints -D warnings -D clippy::todo"
+echo "[INFO] Clippy arguments set: $CLIPPY_COMMON_ARGS"
